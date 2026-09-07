@@ -1,0 +1,468 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+.python-version
+.python-version.*
+
+# Python build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+MANIFEST
+*.manifest
+*.spec
+.installed.cfg
+develop-eggs/
+sdist/
+bdist/
+.pytest_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+.pyre/
+.pytype/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyright/
+.ruff_cache/
+.ruff_cache/
+
+# -------------------------
+# Virtual environments
+# -------------------------
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.virtualenv/
+.conda/
+conda-env/
+pipenv/
+poetry-env/
+uv-env/
+
+# -------------------------
+# Environment and secrets
+# -------------------------
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.env
+*.secret
+*.secrets
+secrets/
+credentials/
+config.local.*
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+service-account*.json
+firebase-adminsdk*.json
+
+# -------------------------
+# Python tools
+# -------------------------
+.pytest_cache/
+.cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.pyright/
+.pyproject/
+.pydeps/
+pip-log.txt
+pip-delete-this-directory.txt
+pip-selfcheck.json
+*.log
+
+# -------------------------
+# Jupyter and IPython
+# -------------------------
+.ipynb_checkpoints/
+.profile_default/
+.ipython/
+jupyter_runtime/
+runtime/
+*.ipynb_checkpoints
+
+# -------------------------
+# IDEs and editors
+# -------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/*.code-snippets
+
+.idea/
+*.iml
+*.iws
+*.ipr
+.spyproject/
+.vim/
+.nvim/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# -------------------------
+# Operating systems
+# -------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+lost+found/
+
+# -------------------------
+# Databases and local storage
+# -------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+*.db-shm
+*.db-wal
+*.mdb
+*.sqlitedb
+database/
+databases/
+data/local/
+storage/
+*.bak
+*.backup
+
+# -------------------------
+# Logs and temporary files
+# -------------------------
+logs/
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+.cache/
+*.pid
+*.pid.lock
+*.lock
+*.orig
+*.rej
+.http-forge
+
+# -------------------------
+# AI, agents, and ML artifacts
+# -------------------------
+models/
+model/
+checkpoints/
+checkpoints/
+runs/
+wandb/
+.wandb/
+mlruns/
+mlartifacts/
+outputs/
+output/
+artifacts/
+artifacts/
+experiments/
+eval-results/
+benchmarks/
+tensorboard/
+lightning_logs/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+*.keras
+*.joblib
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.parquet
+
+# Local agent memory and vector stores
+memory/
+agent-memory/
+vectorstore/
+vectorstores/
+chroma/
+chroma_db/
+chroma_data/
+.faiss/
+*.faiss
+*.index
+qdrant_storage/
+milvus_data/
+weaviate_data/
+lancedb/
+.index/
+
+# -------------------------
+# Audio and video artifacts
+# -------------------------
+audio/
+audios/
+voice/
+voices/
+recordings/
+recording/
+transcripts/
+transcription/
+tts-output/
+stt-output/
+generated-audio/
+generated-video/
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.opus
+*.aac
+*.aiff
+*.wma
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.webp
+
+# -------------------------
+# Scraping and browser data
+# -------------------------
+scraped/
+scraped-data/
+scrape-output/
+downloads/
+download/
+html/
+snapshots/
+screenshots/
+browser-data/
+browser-profile/
+playwright-report/
+playwright/.cache/
+.selenium/
+.pyppeteer/
+.chromium/
+.chrome/
+.firefox/
+cookies/
+*.har
+*.html
+*.htm
+
+# -------------------------
+# Documents and generated files
+# -------------------------
+generated/
+generated-files/
+processed/
+processed-files/
+uploads/
+uploaded/
+exports/
+*.pdf
+*.docx
+*.xlsx
+*.xls
+*.csv
+*.jsonl
+*.xml
+*.yaml
+*.yml
+
+# Keep configuration templates and source fixtures if required
+# !fixtures/
+# !examples/
+# !data/sample/
+# !data/README.md
+
+# -------------------------
+# Data science
+# -------------------------
+data/
+datasets/
+dataset/
+raw-data/
+processed-data/
+feature-store/
+*.feather
+*.arrow
+*.parquet
+*.h5
+*.hdf5
+*.mat
+*.rds
+*.sav
+
+# -------------------------
+# Web frameworks
+# -------------------------
+staticfiles/
+static_root/
+media/
+media_root/
+*.mo
+instance/
+flask_session/
+*.jinja2.pyc
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+__pycache__/
+staticfiles/
+media/
+
+# -------------------------
+# Celery and task queues
+# -------------------------
+celerybeat-schedule
+celerybeat.pid
+celerybeat-schedule.db
+flower/
+redis/
+rabbitmq/
+*.rdb
+
+# -------------------------
+# Docker and infrastructure
+# -------------------------
+.docker/
+docker-data/
+docker-volumes/
+*.tar
+*.tar.gz
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+crash.*.log
+.serverless/
+.aws-sam/
+.sam/
+.pytest_cache/
+
+# -------------------------
+# Cloud provider files
+# -------------------------
+.aws/
+.gcloud/
+.azure/
+.firebase/
+.vercel/
+.netlify/
+.serverless/
+pulumi/
+*.tfstate
+*.tfstate.backup
+
+# -------------------------
+# Node-based tooling used with Python projects
+# -------------------------
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+.yarn-cache/
+.yarn-integrity
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+dist/
+.cache/
+.turbo/
+
+# -------------------------
+# Documentation builds
+# -------------------------
+docs/_build/
+site/
+.micromamba/
+mkdocs-material/
+public/
+_book/
+*.html
+!docs/**/*.html
+
+# -------------------------
+# Test and benchmark output
+# -------------------------
+test-results/
+test-results.xml
+junit.xml
+*.junit.xml
+benchmark-results/
+pytest-report/
+coverage/
+htmlcov/
+reports/
+
+# -------------------------
+# OS and shell history
+# -------------------------
+.history/
+.bash_history
+.zsh_history
+.python_history
+.direnv/
+.envrc
+
+# -------------------------
+# Project-specific local files
+# -------------------------
+.local/
+.local.*
+*.local
+*.development
+*.production
+*.override
+notes.private/
+scratch/
+sandbox/
