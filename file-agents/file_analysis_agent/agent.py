@@ -75,23 +75,6 @@ while True:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ############################# For OpenAI API #############################
 # try:
 #     from openai import OpenAI
