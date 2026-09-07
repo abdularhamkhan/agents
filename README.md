@@ -40,9 +40,21 @@ This repository can be used to:
 Projects may be organized by capability, for example:
 
 - `file-agents/`
+- `planners/`
 - `voice-agents/`
 - `scrapers/`
 - `multi-agent-systems/`
 - `shared/`
 
 Each project may include its own documentation, setup instructions, and usage examples.
+
+## Agent Types
+
+Agents can be designed with different levels of reasoning and adaptation:
+
+- **Simple Reflex** agents act on the current input, like a thermostat.
+- **Model-Based** agents use an internal model of their environment, like a robot vacuum.
+- **Goal-Based** agents plan actions to reach a desired goal, like a study planner.
+- **Utility-Based** agents choose the action that is expected to produce the best outcome, like a trading bot.
+- **Learning Agents** improve their behavior over time through experience, like recommendation systems.
+
